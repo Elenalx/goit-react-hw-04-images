@@ -1,5 +1,7 @@
 // import { Component } from 'react';
-import  Notiflix  from 'notiflix';
+import Notiflix from 'notiflix';
+
+import { useEffect } from 'react';
 
 import  Searchbar from './Searchbar/Searchbar';
 
@@ -81,7 +83,7 @@ const App = () => {
  const buttonTogle = length => {
     if (length >= 12) {
       return setButtonTogle( true );
-    }
+   };
     return setButtonTogle( false );
   };
 
